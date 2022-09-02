@@ -1,0 +1,39 @@
+.container{
+    background-color:rgb(194, 135, 26); 
+   /* height: 26rem; */
+   align-items: center;
+   margin: auto;
+}
+
+body{
+    background-color: black;
+}
+#email{
+    border-radius: 0px 5px 5px 0px;
+}
+#phone-number{
+    border-radius: 0px 5px 5px 0px;
+}
+h1{
+    text-align: center;
+    font-size: 50px !important;
+    font-weight: bolder !important;
+}
+button{
+    background-color:darkgreen !important;
+    margin-bottom: 5px;
+}
+button:hover{
+    /* border-color: black !important; */
+   border-width: 0px;
+}
+input:hover{
+    border-color: black !important;
+}
+.invalid-feedback{
+    color: rgba(255, 0, 0, 0.774) !important;
+}
+.valid-feedback{
+    color: green;
+}
+
