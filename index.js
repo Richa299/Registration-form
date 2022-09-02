@@ -135,10 +135,13 @@ function check_zip(){
         document.getElementById("zip-invalid").style.display="block";
         document.getElementById("zip-valid").style.display="none";
         // error=true;  
-    }
-    else{
+    }else if(zip_name.length==6&&parseInt(zip_name).toString().length==6){
         document.getElementById("zip-valid").style.display="block";
         document.getElementById("zip-invalid").style.display="none";
+    }
+    else{
+        document.getElementById("zip-invalid").style.display="block";
+        document.getElementById("zip-valid").style.display="none";
     }
 }
 
